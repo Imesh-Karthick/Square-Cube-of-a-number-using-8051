@@ -35,6 +35,10 @@ To write and execute an Assembly language program for finding the square of a gi
 
 12.End the program.
 
+Result:
+- 8100H: Input 8-bit number
+- 8102H: Lower byte of the square
+- 8103H: Higher byte of the square
 
 
 ## FLOW CHART
@@ -111,6 +115,11 @@ To write and execute an Assembly language program for finding the cube of a give
 17.Execute `SJMP HERE` to stop program progression using an infinite loop.
 
 18.End.
+
+Result: The 24-bit cube of the 8-bit number is stored in external memory locations:
+- 9001H: Higher byte
+- 9002H: Middle byte
+- 9003H: Lower byte
 
 
 
